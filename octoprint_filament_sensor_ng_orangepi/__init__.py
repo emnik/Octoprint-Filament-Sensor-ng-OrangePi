@@ -159,7 +159,7 @@ class filamentsensorngOrangePiPlugin(octoprint.plugin.StartupPlugin,
         )
 
 __plugin_name__ = "FilamentSensor OrangePi"
-__plugin_version__ = "1.0.2"
+__plugin_version__ = "1.0.3"
 __plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
