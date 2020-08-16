@@ -149,17 +149,18 @@ class filamentsensorngOrangePiPlugin(octoprint.plugin.StartupPlugin,
 
                 # version check: github repository
                 type="github_release",
-                user="deadly667",
+                user="emnik",
                 repo="Octoprint-Filament-Sensor-ng-Orangepi",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/deadly667/Octoprint-Filament-Sensor-ng-OrangePi/archive/master.zip"
+                pip="https://github.com/emnik/Octoprint-Filament-Sensor-ng-OrangePi/archive/master.zip"
             )
         )
 
 __plugin_name__ = "FilamentSensor OrangePi"
 __plugin_version__ = "1.0.2"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
     global __plugin_implementation__
