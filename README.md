@@ -22,7 +22,7 @@ Using this plugin requires a filament sensor.
 
 ## Installation
 
-* Manually using this URL: https://github.com/emnik/Octoprint-Filament-Sensor-ng/archive/master.zip
+* Manually using this URL: https://github.com/emnik/Octoprint-Filament-Sensor-ng-OrangePi/archive/master.zip
 
 ## Configuration
 
